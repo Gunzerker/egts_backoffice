@@ -67,7 +67,7 @@ const AuthForm: React.FC<IAuthForm> = () => {
         }}
       >
         <Box>
-          <Image src={'/tech-logo.png'} alt="logo" width={100} height={100} />
+          <Image src={'/logo.png'} alt="logo" width={500} height={200} />
         </Box>
         <Box mt={3} mb={3} sx={{ textAlign: 'center' }}>
           <Typography fontFamily={'Segoe UI'} fontWeight={'bold'} variant="h6">
