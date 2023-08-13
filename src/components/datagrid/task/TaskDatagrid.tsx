@@ -71,10 +71,10 @@ const TaskDatagrid: React.FC<ITaskDatagrid> = ({ data }) => {
   > </Switch>
       );
     } },
-    { field: 'thirty_fo', headerName: '32 FO', width: 150,  renderCell: (id: any) => {
+    { field: 'thirty_fo', headerName: 'Extension', width: 150,  renderCell: (id: any) => {
       return (
         <Switch
-        id="32FO"
+        id="Extension"
         disabled={true}
         checked={id.row.thirty_fo}
         className={`${

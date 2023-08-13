@@ -226,8 +226,8 @@ function TaskDialog(props: SimpleDialogProps) {
            
           </Grid>
           <Grid item xs={6}>
-            <Typography variant="body2">32Fo <Switch
-              id="32FO"
+            <Typography variant="body2">Extension <Switch
+              id="Extension"
               checked={formik.values.thirty_fo}
               onChange={(event, checked)  => {
                 formik.setFieldValue("thirty_fo", checked);
